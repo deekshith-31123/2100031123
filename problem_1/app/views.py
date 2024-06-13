@@ -7,14 +7,11 @@ from collections import deque
 import time
 import logging
 
-# Set up logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-# Configurable window size
 WINDOW_SIZE = 10
 
-# Sliding window data structures for each number type
 windows = {
     'p': deque(maxlen=WINDOW_SIZE),
     'f': deque(maxlen=WINDOW_SIZE),
@@ -22,7 +19,6 @@ windows = {
     'r': deque(maxlen=WINDOW_SIZE)
 }
 
-# Test server URLs
 TEST_SERVER_URLS = {
     'p': 'http://20.244.56.144/test/primes',
     'f': 'http://20.244.56.144/test/fibo',
