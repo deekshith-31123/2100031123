@@ -65,7 +65,7 @@ This Django project serves as a web application to fetch and display top product
 
 2. Install dependencies:
 3. Set up configuration:
-- Add `BEARER_TOKEN` to `config.py` for API authentication.
+- Add `BEARER_TOKEN` to `views.py` for API authentication.
 
 4. Run migrations (if using a database):
 
@@ -82,8 +82,6 @@ This Django project serves as a web application to fetch and display top product
   - `order`: Sorting order ('asc' or 'desc', default: 'asc').
 
 ## Project Structure
-- `api_client.py`: Functions to communicate with the external API and fetch products.
-- `product_handler.py`: Handles processing and pagination of products from the API.
 - `views.py`: Django view functions to serve web requests and return JSON responses.
 
 ## Documentation
@@ -93,11 +91,11 @@ This Django project serves as a web application to fetch and display top product
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Credits
-- Project maintained by Praveen (2100030888).
+- Project maintained by Sai deekshith (2100031123).
 - External APIs used for product data retrieval (list any relevant external sources).
 
 ## Support
-For any issues or inquiries, please contact Praveen via email at praveen@example.com.
+For any issues or inquiries, please contact Sai deekshith via email at 2100031123cseh@gmail.com
 
 ## Acknowledgements
 - Special thanks to the Django community for their continuous support and contributions.
